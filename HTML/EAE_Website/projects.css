@@ -1,0 +1,13 @@
+.projects {
+  height: 600px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  color: rgb(66, 73, 73);
+  background-color: #B7B8BF;
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0;
+  align-items: center;
+}

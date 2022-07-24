@@ -1,0 +1,52 @@
+.H {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.T {
+  font-family: Verdana;
+  color: gray;
+  margin-top: 5px;
+  font-size: 20px;
+}
+.M {
+  font-family: Verdana;
+  width: 280px;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+.L {
+  font-family: Verdana;
+  background-color: green;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  border: none;
+  border-radius: 10px;
+}
+
+
+
+
+p {
+  font-family: Arial;
+  font-size: 14px;
+}
+.C {
+  font-size: 30px;
+}
+.C2 {
+  color: grey;
+  font-size: 14px;
+}
+.S {
+  color: green;
+}
+.S2 {
+  color: red;
+}

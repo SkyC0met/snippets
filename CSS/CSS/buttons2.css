@@ -1,0 +1,77 @@
+.back-button {
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+
+.search-result {
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 18px;
+}
+
+.next-button {
+  margin-left: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+
+
+
+
+.S {
+  background-color: goldenrod;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  transition: padding-left 0.5s, padding-right 0.5s, padding-top 0.5s,
+    padding-bottom 0.5s;
+}
+.S:hover {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+.D {
+  background-color: rgb(218, 165, 32);
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.D:active {
+  margin-top: 3px;
+  margin-left: 3px;
+  box-shadow: none;
+}
+.num {
+  background-color: goldenrod;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: padding-left 0.5s, padding-right 0.5s;
+}
+.num:hover {
+  padding-left: 36px;
+  padding-right: 36px;
+}
