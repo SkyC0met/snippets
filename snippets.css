@@ -1,0 +1,208 @@
+body {
+  background-color: rgb(180, 60, 180);
+}
+
+p,
+div,
+body {
+  margin: 0;
+}
+
+.header {
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: white;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.home {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: cursive;
+  padding-left: 30px;
+}
+
+.middle-section {
+  display: flex;
+  flex: 0.5;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 24px;
+  flex-shrink: 0;
+}
+
+.certs {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: cursive;
+  padding-left: 20px;
+}
+
+.right-section {
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  flex: 1;
+  height: 36px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+  background-color: rgb(243, 243, 243);
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  width: 0;
+  border-radius: 0;
+}
+
+.search-bar::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+}
+
+.search-button {
+  height: 40px;
+  width: 66px;
+  background-color: rgb(247, 247, 247);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.search-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 60px;
+}
+
+.search-icon {
+  height: 25px;
+  cursor: pointer;
+}
+
+.menu-btn {
+  padding: 16px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: cursive;
+  border: none;
+  background-color: white;
+}
+
+.dropdown-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: darkgray;
+  width: 160px;
+}
+
+.links-hidden {
+  display: inline-block;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.links-hidden {
+  display: block;
+}
+
+.links-hidden:hover {
+  background-color: rgb(114, 114, 114);
+}
+
+.dropdown-menu:hover .menu-content {
+  display: block;
+}
+
+.main-container {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.github-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  height: 50px;
+}
+
+.github-link {
+  color: white;
+  font-size: 30px;
+}
+
+.snippets-container {
+  width: 100%;
+  height: 100rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.code-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  height: 250px;
+}
+
+.code-container img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.code {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.code span {
+  font-size: 15px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.code p {
+  font-size: 15px;
+  margin-top: 5px;
+}
